@@ -142,7 +142,7 @@ You can then execute it with the desired parameters.
    Therefore, duplicate edges with reversed node order must not appear in the input.
    For example, the following two edges must not coexist:
 
-   1 2 5
+   1 2 5  
    2 1 5
 
    Only one of them should be included in the dataset.
