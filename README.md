@@ -102,7 +102,7 @@ You can then execute it with the desired parameters.
 ./wscan --network sociopattern_primaryschool \
         --similarity WSCAN++ \
         --eps 0.2 --mu 8 --gamma 0.7 \
-        --edge_p 0.1 --delta_p 0.05 --weight_method max --seed 1 --output_file result
+        --edge_p 0.1 --delta_p 0.05 --weight_method avg --seed 1 --output_file result
 ```
 
 ---
