@@ -1,4 +1,4 @@
-# WSCAN
+# WSCAN++
 Instruction for experiment
 
 WSCAN is implemented in C++ and compiled via the provided `Makefile`.
