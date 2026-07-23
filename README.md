@@ -28,11 +28,9 @@ You can then execute it with the desired parameters.
 - similarity : Name of the similarity function to use. Available options:
   - `SCAN`         — structural similarity (unweighted)
   - `WSCAN`        — weighted structural similarity
-  - `cosine`       — cosine similarity on edge weights
   - `WSCAN++`      — proposed weighted similarity (min aggregation)
   - `WSCAN++_max`  — WSCAN++ variant with max aggregation
   - `WSCAN++_avg`  — WSCAN++ variant with average aggregation
-  - `Jaccard`      — weighted Jaccard similarity
 
 - network : Path of the dataset folder (relative to `dataset/`). The folder has to contain a file named `network.dat`.
 
