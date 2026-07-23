@@ -129,15 +129,15 @@ You can then execute it with the desired parameters.
 
 ## Notes
 
-1. Ground-truth Detection
+1. Ground-truth Detection : 
    The program automatically checks whether the dataset has ground-truth labels by verifying the existence of a `labels.dat` file in the dataset folder (if synthetic, `community.dat`). No additional argument is required. Datasets without a label file are evaluated with internal metrics only (ARI/NMI are `NULL`).
 
-2. Node Indexing
+2. Node Indexing : 
    Node indices must start from 1.
    Although non-consecutive numbering does not cause runtime errors, memory allocation is based on the maximum node ID.
    Therefore, non-sequential numbering may result in unnecessary memory usage.
 
-3. Undirected Graph Assumption
+3. Undirected Graph Assumption : 
    The dataset is currently processed in undirected mode.
    Therefore, duplicate edges with reversed node order must not appear in the input.
    For example, the following two edges must not coexist:
